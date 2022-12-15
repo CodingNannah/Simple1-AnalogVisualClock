@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=M+PLUS+Rounded+1c:wght@500&family=Unbounded&display=swap');
+
+*, *::after, *::before {
+    box-sizing: border-box;
+    font-family: 'M PLUS Rounded 1c', 'Concert One', sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, hsl(20, 100%, 50%), hsl(40, 100%, 50%));
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    background-color: #dec1b7;
+    color:#6c4dc0;
+    width: 500px;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.clock {
+    width: 300px;
+}
+
+.digital {
+    margin: 15px;
+    background: #dec1b7;
+    padding: 10px;
+    width: 400px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.clock-time, .clock-ampm {
+    font-family: 'M PLUS Rounded 1c', 'Concert One', sans-serif;
+    font-size: 45px;
+    font-weight: 500;
+    color: #6c4dc0;
+}
+
+.clock-ampm {
+    font-size: 30px;
+}
